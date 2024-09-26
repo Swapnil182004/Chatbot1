@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-container {
+    width: 460px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .chatbox {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    
+  }
+  
+  .chat-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .send-btn {
+    width: 15%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .send-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+/* Style for regular chat messages */
+.chat-message {
+  display: block;
+  width: fit-content;
+  background-color: #e4d791;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+/* Style for attached file messages */
+.file-message {
+  background-color: #e4d791;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
